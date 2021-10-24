@@ -22,7 +22,11 @@ plt.show()
 
 # Technique #2: Descriptive Statistics
 print(data['life_sq'].describe())
-# From the solution we can see that the anomaly is the value 7478.
+
+# To find all of the statistics of every column.
+print(data.describe().T)
+
+# From the solutdion we can see that the anomaly is the value 7478.
 # Why ? because 75% of data is only 43
 
 
